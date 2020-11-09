@@ -1,9 +1,9 @@
-package com.company.RemoteInterface;
+package com.company.RemoteHandler;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
-public interface MyRMIInterface extends Remote {
+public interface RMIInterface extends Remote {
 
     public int addInt(int a, int b) throws RemoteException;
 
