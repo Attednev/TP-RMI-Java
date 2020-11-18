@@ -15,5 +15,9 @@ public class ClientMain {
         int response = rmiExecutor.addInt(a, b);
         System.out.println("Server response for 'addInt(" +
                 a + ", " + b + ")' is: " + response);
+        long sideLength = 10;
+        long responseQuadrat = rmiExecutor.quadrat(sideLength);
+        System.out.println("Server response for 'quadrat(" +
+                sideLength + ")' is: " + responseQuadrat);
     }
 }
